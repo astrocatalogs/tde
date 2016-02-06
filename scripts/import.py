@@ -622,7 +622,48 @@ if do_task('internal'):
     journal_events()
 
 if do_task('old-tdefit'):
-    for file in sorted(glob.glob("../tde-internal/*.dat"), key=lambda s: s.lower()):
+    oldbanddict = {
+        "Pg": {"instrument":"Pan-STARRS1", "band":"g"},
+        "Pr": {"instrument":"Pan-STARRS1", "band":"r"},
+        "Pi": {"instrument":"Pan-STARRS1", "band":"i"},
+        "Pz": {"instrument":"Pan-STARRS1", "band":"z"},
+        "Mu": {"instrument":"MegaCam",     "band":"u"},
+        "Mg": {"instrument":"MegaCam",     "band":"g"},
+        "Mr": {"instrument":"MegaCam",     "band":"r"},
+        "Mi": {"instrument":"MegaCam",     "band":"i"},
+        "Mz": {"instrument":"MegaCam",     "band":"z"},
+        "Su": {"instrument":"SDSS",        "band":"u"},
+        "Sg": {"instrument":"SDSS",        "band":"g"},
+        "Sr": {"instrument":"SDSS",        "band":"r"},
+        "Si": {"instrument":"SDSS",        "band":"i"},
+        "Sz": {"instrument":"SDSS",        "band":"z"},
+        "bU": {"instrument":"Bessel",      "band":"U"},
+        "bB": {"instrument":"Bessel",      "band":"B"},
+        "bV": {"instrument":"Bessel",      "band":"V"},
+        "bR": {"instrument":"Bessel",      "band":"R"},
+        "bI": {"instrument":"Bessel",      "band":"I"},
+        "4g": {"instrument":"PTF 48-Inch", "band":"g"},
+        "4r": {"instrument":"PTF 48-Inch", "band":"r"},
+        "6g": {"instrument":"PTF 60-Inch", "band":"g"},
+        "6r": {"instrument":"PTF 60-Inch", "band":"r"},
+        "6i": {"instrument":"PTF 60-Inch", "band":"i"},
+        "Uu": {"instrument":"UVOT",        "band":"U"},
+        "Ub": {"instrument":"UVOT",        "band":"B"},
+        "Uv": {"instrument":"UVOT",        "band":"V"},
+        "Um": {"instrument":"UVOT",        "band":"M2"},
+        "U1": {"instrument":"UVOT",        "band":"W1"},
+        "U2": {"instrument":"UVOT",        "band":"W2"},
+        "GN": {"instrument":"GALEX",       "band":"NUV"},
+        "GF": {"instrument":"GALEX",       "band":"FUV"},
+        "CR": {"instrument":"Clear",       "band":"r"  },
+        "RO": {"instrument":"ROTSE"                    },
+        "X1": {"instrument":"Chandra"                  },
+        "X2": {"instrument":"XRT"                      },
+        "Xs": {"instrument":"XRT",         "band":"soft"},
+        "Xm": {"instrument":"XRT",         "band":"hard"},
+        "XM": {"instrument":"XMM"                      }
+    }
+    for file in sorted(glob.glob("../tde-external/old-tdefit/*.dat"), key=lambda s: s.lower()):
         f = open(file,'r')
         tsvin = csv.reader(f, delimiter='\t', skipinitialspace=True)
 
@@ -675,18 +716,26 @@ if do_task('old-tdefit'):
                     else:
                         time = str(yrsmjdoffset + float(row[2])*365.25)
                     lrestframe = False
-                band = row[3]
+                instrument = ''
+                iband = row[3]
+                if iband in oldbanddict:
+                    if 'band' in oldbanddict[iband]:
+                        band = oldbanddict[iband]['band']
+                    if 'instrument' in oldbanddict[iband]:
+                        instrument = oldbanddict[iband]['instrument']
+                else:
+                    band = iband
                 upperlimit = True if row[6] == '1' else False
                 if 'X' in band:
                     counts = row[4]
-                    e_counts = row[5]
+                    e_counts = row[5] if float(row[5]) != 0.0 else ''
                     add_photometry(name, time = time, timeunit = timeunit, band = band, counts = counts, e_counts = e_counts,
-                            upperlimit = upperlimit, restframe = lrestframe, hostnhcorr = hostnhcorr)
+                            upperlimit = upperlimit, restframe = lrestframe, hostnhcorr = hostnhcorr, instrument = instrument)
                 else:
                     magnitude = row[4]
-                    e_magnitude = row[5]
+                    e_magnitude = row[5] if float(row[5]) != 0.0 else ''
                     add_photometry(name, time = time, timeunit = timeunit, band = band, magnitude = magnitude, e_magnitude = e_magnitude,
-                            upperlimit = upperlimit, restframe = lrestframe, hostnhcorr = hostnhcorr)
+                            upperlimit = upperlimit, restframe = lrestframe, hostnhcorr = hostnhcorr, instrument = instrument)
 
 # Import primary data sources from Vizier
 if do_task('vizier'):
