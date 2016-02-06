@@ -34,7 +34,7 @@ args = parser.parse_args()
 
 outdir = "../"
 
-linkdir = "https://sne.space/sne/"
+linkdir = "https://tde.space/tde/"
 
 testsuffix = '.test' if args.test else ''
 
@@ -133,7 +133,7 @@ if len(columnkey) != len(header):
     print('Error: Header not same length as key list.')
     sys.exit(0)
 
-dataavaillink = "<a href='https://bitbucket.org/Guillochon/sne'>Y</a>"
+dataavaillink = "<a href='https://bitbucket.org/Guillochon/tde'>Y</a>"
 
 header = OrderedDict(list(zip(columnkey,header)))
 titles = OrderedDict(list(zip(columnkey,titles)))
@@ -149,11 +149,6 @@ bandcodes = [
     "r'",
     "i'",
     "z'",
-    "u_SDSS",
-    "g_SDSS",
-    "r_SDSS",
-    "i_SDSS",
-    "z_SDSS",
     "U",
     "B",
     "V",
@@ -167,11 +162,9 @@ bandcodes = [
     "C",
     "CR",
     "CV",
-    "uvm2",
-    "uvw1",
-    "uvw2",
-    "pg",
-    "Mp"
+    "M2",
+    "W1",
+    "W2"
 ]
 
 bandaliases = OrderedDict([
@@ -293,7 +286,7 @@ def label_format(label):
 
 catalog = OrderedDict()
 catalogcopy = OrderedDict()
-snepages = []
+tdepages = []
 sourcedict = dict()
 nophoto = []
 nospectra = []
@@ -342,14 +335,14 @@ for fcnt, eventfile in enumerate(sorted(files, key=lambda s: s.lower())):
     numphoto = len([x for x in catalog[entry]['photometry'] if 'upperlimit' not in x]) if photoavail else 0
     catalog[entry]['numphoto'] = numphoto
     if photoavail:
-        plotlink = "sne/" + eventname + ".html"
+        plotlink = "tde/" + eventname + ".html"
         catalog[entry]['photoplot'] = plotlink
         plotlink = "<a class='lci' href='" + plotlink + "' target='_blank'></a> "
         catalog[entry]['photolink'] = plotlink + str(numphoto)
     spectraavail = 'spectra' in catalog[entry]
     catalog[entry]['numspectra'] = len(catalog[entry]['spectra']) if spectraavail else 0
     if spectraavail:
-        plotlink = "sne/" + eventname + ".html"
+        plotlink = "tde/" + eventname + ".html"
         catalog[entry]['spectraplot'] = plotlink
         plotlink = "<a class='sci' href='" + plotlink + "' target='_blank'></a> "
         catalog[entry]['spectralink'] = plotlink + str(len(catalog[entry]['spectra']))
@@ -409,13 +402,13 @@ for fcnt, eventfile in enumerate(sorted(files, key=lambda s: s.lower())):
         shutil.copy2(eventfile, '../' + os.path.basename(eventfile))
 
     if photoavail and dohtml and args.writehtml:
-        phototime = [float(catalog[entry]['photometry'][x]['time']) for x in prange]
-        photoAB = [float(catalog[entry]['photometry'][x]['magnitude']) for x in prange]
-        photoerrs = [float(catalog[entry]['photometry'][x]['aberr']) if 'aberr' in catalog[entry]['photometry'][x] else 0. for x in prange]
-        photoband = [catalog[entry]['photometry'][x]['band'] if 'band' in catalog[entry]['photometry'][x] else '' for x in prange]
-        photoinstru = [catalog[entry]['photometry'][x]['instrument'] if 'instrument' in catalog[entry]['photometry'][x] else '' for x in prange]
+        phototime = [float(x['time']) for x in catalog[entry]['photometry'] if 'magnitude' in x]
+        photoAB = [float(x['magnitude']) for x in catalog[entry]['photometry'] if 'magnitude' in x]
+        photoerrs = [(float(x['e_magnitude']) if 'e_magnitude' in x else 0.) for x in catalog[entry]['photometry'] if 'magnitude' in x]
+        photoband = [(x['band'] if 'band' in x else '') for x in catalog[entry]['photometry'] if 'magnitude' in x]
+        photoinstru = [(x['instrument'] if 'instrument' in x else '') for x in catalog[entry]['photometry'] if 'magnitude' in x]
         photosource = [', '.join(str(j) for j in sorted(int(i) for i in catalog[entry]['photometry'][x]['source'].split(','))) for x in prange]
-        phototype = [bool(catalog[entry]['photometry'][x]['upperlimit']) if 'upperlimit' in catalog[entry]['photometry'][x] else False for x in prange]
+        phototype = [(x['upperlimit'] if 'upperlimit' in x else False) for x in catalog[entry]['photometry'] if 'magnitude' in x]
 
         x_buffer = 0.1*(max(phototime) - min(phototime)) if len(phototime) > 1 else 1.0
         x_range = [-x_buffer + min(phototime), x_buffer + max(phototime)]
@@ -647,12 +640,12 @@ for fcnt, eventfile in enumerate(sorted(files, key=lambda s: s.lower())):
         #    fff.write(script)
         #with open(outdir + eventname + "-div.html", "w") as fff:
         #    fff.write(div)
-        returnlink = r'<br><a href="https://sne.space"><< Return to supernova catalog</a>'
+        returnlink = r'<br><a href="https://tde.space"><< Return to supernova catalog</a>'
         repfolder = get_rep_folder(catalog[entry])
         dla = r'<a href="' + linkdir + eventname + r'.json" download>'
-        html = re.sub(r'(\<\/body\>)', dla + r'''<img src="https://sne.space/wp-content/plugins/transient-table/data-icon.png" width="22" height="22"/
+        html = re.sub(r'(\<\/body\>)', dla + r'''<img src="https://tde.space/wp-content/plugins/transient-table/data-icon.png" width="22" height="22"/
             style="vertical-align: text-bottom; margin-left: 230px;"></a>&nbsp;''' +
-            dla + r'Download data</a>&nbsp;' + dla + r'''<img src="https://sne.space/wp-content/plugins/transient-table/data-icon.png" width="22" height="22"
+            dla + r'Download data</a>&nbsp;' + dla + r'''<img src="https://tde.space/wp-content/plugins/transient-table/data-icon.png" width="22" height="22"
             style="vertical-align: text-bottom;"></a><br><br>\n\1''', html)
         if len(catalog[entry]['sources']):
             html = re.sub(r'(\<\/body\>)', r'<em>Sources of data:</em><br><table><tr><th width=30px>ID</th><th>Source</th></tr>\n\1', html)
@@ -680,7 +673,7 @@ for fcnt, eventfile in enumerate(sorted(files, key=lambda s: s.lower())):
     # Save this stuff because next line will delete it.
     if args.writecatalog:
         if 'photoplot' in catalog[entry]:
-            snepages.append(catalog[entry]['aliases'] + ['https://sne.space/' + catalog[entry]['photoplot']])
+            tdepages.append(catalog[entry]['aliases'] + ['https://tde.space/' + catalog[entry]['photoplot']])
 
         if 'sources' in catalog[entry]:
             for sourcerow in catalog[entry]['sources']:
@@ -721,9 +714,9 @@ if args.writecatalog and not args.eventlist:
     f.close()
 
     # Make a few small files for generating charts
-    f = open(outdir + 'snepages.csv' + testsuffix, 'w')
+    f = open(outdir + 'tdepages.csv' + testsuffix, 'w')
     csvout = csv.writer(f, quotechar='"', quoting=csv.QUOTE_ALL)
-    for row in snepages:
+    for row in tdepages:
         csvout.writerow(row)
     f.close()
 

@@ -397,7 +397,7 @@ def get_max_light(name):
     eventphoto = [Decimal(x) for x in eventphoto]
     mlmag = min(eventphoto)
     mlindex = eventphoto.index(mlmag)
-    mlmjd = float(events[name]['photometry'][mlindex]['time'])
+    mlmjd = float([x for x in events[name]['photometry'] if 'magnitude' in x][mlindex]['time'])
     return (astrotime(mlmjd, format='mjd').datetime, mlmag)
 
 def get_first_light(name):
@@ -690,7 +690,6 @@ if do_task('old-tdefit'):
         f.seek(0)
 
         for row in tsvin:
-            print(row)
             if row[0] == 'redshift':
                 add_quanta(name, 'redshift', row[1], source)
             elif row[0] == 'host':
@@ -726,16 +725,16 @@ if do_task('old-tdefit'):
                 else:
                     band = iband
                 upperlimit = True if row[6] == '1' else False
-                if 'X' in band:
+                if 'X' in iband:
                     counts = row[4]
                     e_counts = row[5] if float(row[5]) != 0.0 else ''
                     add_photometry(name, time = time, timeunit = timeunit, band = band, counts = counts, e_counts = e_counts,
-                            upperlimit = upperlimit, restframe = lrestframe, hostnhcorr = hostnhcorr, instrument = instrument)
+                            upperlimit = upperlimit, restframe = lrestframe, hostnhcorr = hostnhcorr, instrument = instrument, source = source)
                 else:
                     magnitude = row[4]
                     e_magnitude = row[5] if float(row[5]) != 0.0 else ''
                     add_photometry(name, time = time, timeunit = timeunit, band = band, magnitude = magnitude, e_magnitude = e_magnitude,
-                            upperlimit = upperlimit, restframe = lrestframe, hostnhcorr = hostnhcorr, instrument = instrument)
+                            upperlimit = upperlimit, restframe = lrestframe, hostnhcorr = hostnhcorr, instrument = instrument, source = source)
 
 # Import primary data sources from Vizier
 if do_task('vizier'):
@@ -761,7 +760,7 @@ if do_task('ogle'):
                 if '.dat' in a['href']:
                     datalinks.append('http://ogle.astrouw.edu.pl/ogle4/' + bn + '/' + a['href'])
 
-        ec = 0
+        ec = -1
         reference = 'OGLE-IV Transient Detection System'
         refurl = 'http://ogle.astrouw.edu.pl/ogle4/transients/transients.html'
         for br in breaks:
@@ -769,9 +768,11 @@ if do_task('ogle'):
             if 'Ra,Dec=' in sibling:
                 line = sibling.replace("\n", '').split('Ra,Dec=')
                 name = line[0].strip()
+                ec += 1
 
-                if 'NOVA' in name or 'dupl' in name:
+                if name in oglenames:
                     continue
+                oglenames.append(name)
 
                 mySibling = sibling.nextSibling
                 atelref = ''
@@ -780,20 +781,16 @@ if do_task('ogle'):
                     if isinstance(mySibling, Tag):
                         atela = mySibling
                         if atela and atela.has_attr('href') and 'astronomerstelegram' in atela['href']:
+                            atelref = atela.contents[0].strip()
+                            atelurl = atela['href']
                             if 'TDE' in atela.contents[0]:
                                 claimedtype = 'TDE'
-                            atelref = a.contents[0].strip()
-                            atelurl = a['href']
                     mySibling = mySibling.nextSibling
                     if mySibling is None:
                         break
 
                 if claimedtype != 'TDE':
                     continue
-                if name in oglenames:
-                    continue
-                oglenames.append(name)
-
                 name = add_event(name)
 
                 nextSibling = sibling.nextSibling
@@ -836,7 +833,6 @@ if do_task('ogle'):
                         e_magnitude = ''
                         upperlimit = True
                     add_photometry(name, time = mjd, band = 'I', magnitude = magnitude, e_magnitude = e_magnitude, source = sources, upperlimit = upperlimit)
-                ec += 1
         journal_events()
 
 if do_task('writeevents'): 
