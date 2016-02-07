@@ -58,6 +58,7 @@ columnkey = [
     "claimedtype",
     "photolink",
     "spectralink",
+    "citations",
     "download",
     "responsive"
 ]
@@ -80,6 +81,7 @@ header = [
     "Claimed Type",
     "Phot.",
     "Spec.",
+    "Citations",
     "",
     ""
 ]
@@ -102,6 +104,7 @@ titles = [
     "Claimed Type",
     "Photometry",
     "Spectra",
+    "Citations",
     "Download",
     ""
 ]
@@ -369,26 +372,6 @@ for fcnt, eventfile in enumerate(sorted(files, key=lambda s: s.lower())):
             catalog[entry]['instruments'] = ", ".join(bandlist)
 
     tools = "pan,wheel_zoom,box_zoom,save,crosshair,reset,resize"
-
-    # Construct the date
-    discoverdatestr = ''
-    if 'discoveryear' in catalog[entry]:
-        discoverdatestr += str(catalog[entry]['discoveryear'][0]['value'])
-        if 'discovermonth' in catalog[entry]:
-            discoverdatestr += '/' + str(catalog[entry]['discovermonth'][0]['value']).zfill(2)
-            if 'discoverday' in catalog[entry]:
-                discoverdatestr += '/' + str(catalog[entry]['discoverday'][0]['value']).zfill(2)
-    catalog[entry]['discoverdate'] = discoverdatestr
-
-    maxdatestr = ''
-    if 'maxyear' in catalog[entry]:
-        maxdatestr += str(catalog[entry]['maxyear'][0]['value'])
-        if 'maxmonth' in catalog[entry]:
-            maxdatestr += '/' + str(catalog[entry]['maxmonth'][0]['value']).zfill(2)
-            if 'maxday' in catalog[entry]:
-                maxdatestr += '/' + str(catalog[entry]['maxday'][0]['value']).zfill(2)
-
-    catalog[entry]['maxdate'] = maxdatestr
 
     # Check file modification times before constructing .html files, which is expensive
     dohtml = True

@@ -393,20 +393,27 @@ def get_max_light(name):
     if 'photometry' not in events[name]:
         return (None, None)
 
-    eventphoto = list(filter(None, [events[name]['photometry'][x]['magnitude'] if 'magnitude' in events[name]['photometry'][x] else None for x in range(len(events[name]['photometry']))]))
-    eventphoto = [Decimal(x) for x in eventphoto]
-    mlmag = min(eventphoto)
-    mlindex = eventphoto.index(mlmag)
-    mlmjd = float([x for x in events[name]['photometry'] if 'magnitude' in x][mlindex]['time'])
-    return (astrotime(mlmjd, format='mjd').datetime, mlmag)
+    eventphoto = [(x['timeunit'], x['time'], Decimal(x['magnitude'])) for x in events[name]['photometry'] if 'magnitude' in x]
+    if not eventphoto:
+        return (None, None)
+    mlmag = min([x[2] for x in eventphoto])
+
+    mlindex = [x[2] for x in eventphoto].index(mlmag)
+    if eventphoto[mlindex][0] == 'MJD':
+        mlmjd = float(eventphoto[mlindex][1])
+        return (astrotime(mlmjd, format='mjd').datetime, mlmag)
+    else:
+        return (None, mlmag)
 
 def get_first_light(name):
     if 'photometry' not in events[name]:
         return None
 
-    eventtime = [Decimal(events[name]['photometry'][x]['time']) for x in range(len(events[name]['photometry']))]
+    eventtime = [Decimal(x['time']) for x in events[name]['photometry'] if 'upperlimit' not in x and 'timeunit' in x and x['timeunit'] == 'MJD']
+    if not eventtime:
+        return None
     flindex = eventtime.index(min(eventtime))
-    flmjd = float(events[name]['photometry'][flindex]['time'])
+    flmjd = float(eventtime[flindex])
     return astrotime(flmjd, format='mjd').datetime
 
 def set_first_max_light(name):
@@ -416,7 +423,17 @@ def set_first_max_light(name):
             add_quanta(name, 'maxyear', pretty_num(mldt.year), 'D')
             add_quanta(name, 'maxmonth', pretty_num(mldt.month), 'D')
             add_quanta(name, 'maxday', pretty_num(mldt.day), 'D')
+            add_quanta(name, 'maxdate', str(mldt.year) + '/' + str(mldt.month).zfill(2) + '/' + str(mldt.day).zfill(2), 'D')
+        if mlmag:
             add_quanta(name, 'maxappmag', pretty_num(mlmag), 'D')
+    elif 'maxyear' in events[name] and 'maxmonth' in events[name] and 'maxday' in events[name]:
+        if (events[name]['maxyear'][0]['source'] == events[name]['maxmonth'][0]['source'] and
+            events[name]['maxyear'][0]['source'] == events[name]['maxday'][0]['source']):
+            source = events[name]['maxyear'][0]['source']
+        else:
+            source = 'D'
+        add_quanta(name, 'maxdate', events[name]['maxyear'][0]['value'] + '/' + events[name]['maxmonth'][0]['value'].zfill(2) +
+            '/' + events[name]['maxday'][0]['value'].zfill(2), source)
 
     if 'discovermonth' not in events[name] or 'discoverday' not in events[name]:
         fldt = get_first_light(name)
@@ -424,6 +441,15 @@ def set_first_max_light(name):
             add_quanta(name, 'discoveryear', pretty_num(fldt.year), 'D')
             add_quanta(name, 'discovermonth', pretty_num(fldt.month), 'D')
             add_quanta(name, 'discoverday', pretty_num(fldt.day), 'D')
+            add_quanta(name, 'discoverdate', str(fldt.year) + '/' + str(fldt.month).zfill(2) + '/' + str(fldt.day).zfill(2), 'D')
+    elif 'discoveryear' in events[name] and 'discovermonth' in events[name] and 'discoverday' in events[name]:
+        if (events[name]['discoveryear'][0]['source'] == events[name]['discovermonth'][0]['source'] and
+            events[name]['discoveryear'][0]['source'] == events[name]['discoverday'][0]['source']):
+            source = events[name]['discoveryear'][0]['source']
+        else:
+            source = 'D'
+        add_quanta(name, 'discoverdate', events[name]['discoveryear'][0]['value'] + '/' + events[name]['discovermonth'][0]['value'].zfill(2) +
+            '/' + events[name]['discoverday'][0]['value'].zfill(2), source)
 
 def jd_to_mjd(jd):
     return jd - Decimal(2400000.5)
@@ -696,12 +722,12 @@ if do_task('old-tdefit'):
                 add_quanta(name, 'host', row[1], source)
             elif row[0] == 'claimedtype':
                 add_quanta(name, 'claimedtype', row[1], source)
+            elif row[0] == 'citations':
+                add_quanta(name, 'citations', row[1], source)
             elif row[0] == 'notes':
                 add_quanta(name, 'notes', row[1], source)
             elif row[0] == 'nh':
                 add_quanta(name, 'nh', row[1], source)
-            elif row[0] == 'instruments':
-                add_quanta(name, 'instruments', row[1], source)
             elif row[0] == 'photometry':
                 if yrsmjdoffset == 0.:
                     timeunit = row[1]

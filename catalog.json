@@ -5,8 +5,8 @@
 		"aliases":[
 			"2MASX J0203"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -17,12 +17,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"2MASS, XMM-Newton, ROSAT",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.0615",
@@ -49,6 +44,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2007A%26A...462L..49E'>Esquej et al. 2007</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/2MASX J0203.json' download></a>",
 		"responsive":null
 	},
@@ -58,8 +59,8 @@
 		"aliases":[
 			"2MASX J0249"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -70,12 +71,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"2MASS, XMM-Newton, ROSAT",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.0186",
@@ -102,6 +98,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2007A%26A...462L..49E'>Esquej et al. 2007</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/2MASX J0249.json' download></a>",
 		"responsive":null
 	},
@@ -111,8 +113,8 @@
 		"aliases":[
 			"3XMM J152130.7+074916"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -123,12 +125,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Swift, XMM-Newton, Chandra",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.17901",
@@ -155,6 +152,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015ApJ...811...43L'>Lin et al. 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/3XMM J152130.7+074916.json' download></a>",
 		"responsive":null
 	},
@@ -164,8 +167,18 @@
 		"aliases":[
 			"ASASSN-14ae"
 		],
-		"discoverdate":"1858/11/17",
-		"maxdate":"1858/11/17",
+		"discoverdate":[
+			{
+				"value":"2013/01/25",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2013/01/27",
+				"source":"D"
+			}
+		],
 		"maxappmag":[
 			{
 				"value":"16.47",
@@ -213,6 +226,12 @@
 		],
 		"photolink":"<a class='lci' href='tde/ASASSN-14ae.html' target='_blank'></a> 228",
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://arxiv.org/abs/1405.1417v1'>Holoien et al. 2014</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/ASASSN-14ae.json' download></a>",
 		"responsive":null
 	},
@@ -222,8 +241,18 @@
 		"aliases":[
 			"ASASSN-14li"
 		],
-		"discoverdate":"2014/07/13",
-		"maxdate":"2014/11/11",
+		"discoverdate":[
+			{
+				"value":"2014/11/11",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2014/11/11",
+				"source":"D"
+			}
+		],
 		"maxappmag":[
 			{
 				"value":"15.8",
@@ -271,6 +300,12 @@
 		],
 		"photolink":"<a class='lci' href='tde/ASASSN-14li.html' target='_blank'></a> 437",
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150701598H'>Holoien et al. 2015</a>*",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/ASASSN-14li.json' download></a>",
 		"responsive":null
 	},
@@ -280,8 +315,8 @@
 		"aliases":[
 			"ASASSN-15oi"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -292,12 +327,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"ASAS-SN",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.02",
@@ -324,6 +354,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://www.astronomerstelegram.org/?read=7910'>Brimacombe et. al 2015</a>*, <a href='http://www.astronomerstelegram.org/?read=7936'>Prentice et. al 2015</a>&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/ASASSN-15oi.json' download></a>",
 		"responsive":null
 	},
@@ -333,8 +369,18 @@
 		"aliases":[
 			"D1-9"
 		],
-		"discoverdate":"1858/11/17",
-		"maxdate":"1858/11/18",
+		"discoverdate":[
+			{
+				"value":"2004/08/09",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2004/12/15",
+				"source":"D"
+			}
+		],
 		"maxappmag":[
 			{
 				"value":"22.71",
@@ -382,6 +428,12 @@
 		],
 		"photolink":"<a class='lci' href='tde/D1-9.html' target='_blank'></a> 58",
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2008ApJ...676..944G'>Gezari et al. 2008</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/D1-9.json' download></a>",
 		"responsive":null
 	},
@@ -391,8 +443,8 @@
 		"aliases":[
 			"D23H-1"
 		],
-		"discoverdate":"1858/11/17",
-		"maxdate":"1858/11/19",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":[
 			{
 				"value":"20.61",
@@ -440,6 +492,12 @@
 		],
 		"photolink":"<a class='lci' href='tde/D23H-1.html' target='_blank'></a> 12",
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2009ApJ...698.1367G'>Gezari et al. 2009</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/D23H-1.json' download></a>",
 		"responsive":null
 	},
@@ -449,8 +507,8 @@
 		"aliases":[
 			"D3-13"
 		],
-		"discoverdate":"1858/11/17",
-		"maxdate":"1858/11/17",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":[
 			{
 				"value":"22.66",
@@ -498,6 +556,12 @@
 		],
 		"photolink":"<a class='lci' href='tde/D3-13.html' target='_blank'></a> 61",
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2006ApJ...653L..25G&db_key=AST&link_type=ABSTRACT&high=4df54da3c231258'>Gezari et al. 2006</a>*&Dagger;, <a href='http://adsabs.harvard.edu/abs/2008ApJ...676..944G'>Gezari et al. 2008</a>",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/D3-13.json' download></a>",
 		"responsive":null
 	},
@@ -507,8 +571,8 @@
 		"aliases":[
 			"DES14C1kia"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -519,12 +583,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"DES, Swift (XRT), ATCA",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.162",
@@ -551,6 +610,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://www.astronomerstelegram.org/?read=6877'>ATEL 6877</a>*",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/DES14C1kia.json' download></a>",
 		"responsive":null
 	},
@@ -560,8 +625,18 @@
 		"aliases":[
 			"Dougie"
 		],
-		"discoverdate":"2009/01/17",
-		"maxdate":"2009/01/31",
+		"discoverdate":[
+			{
+				"value":"2009/01/17",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2009/01/31",
+				"source":"D"
+			}
+		],
 		"maxappmag":[
 			{
 				"value":"17.18",
@@ -609,6 +684,12 @@
 		],
 		"photolink":"<a class='lci' href='tde/Dougie.html' target='_blank'></a> 59",
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2014arXiv1410.6014V'>Vinko et al. 2014</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/Dougie.json' download></a>",
 		"responsive":null
 	},
@@ -618,8 +699,8 @@
 		"aliases":[
 			"GRB060218"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -630,12 +711,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Swift (UVOT, XRT)",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.0335",
@@ -662,6 +738,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2006Natur.442.1008C'>Campana et al. 2006</a>*, <a href='http://adsabs.harvard.edu/abs/2013ApJ...769...85S'>Shcherbakov et al. 2013</a>&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/GRB060218.json' download></a>",
 		"responsive":null
 	},
@@ -671,8 +753,8 @@
 		"aliases":[
 			"HLX-1"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -683,12 +765,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Swift, Chandra, ACTA, Swift, Chandra",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.0223",
@@ -715,6 +792,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2012sf2a.conf..631W'>Webb et al. 2012</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/HLX-1.json' download></a>",
 		"responsive":null
 	},
@@ -724,8 +807,8 @@
 		"aliases":[
 			"IC 3599"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -736,12 +819,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"ROSAT, FOS",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.021245",
@@ -768,6 +846,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/1995MNRAS.273L..47B'>Brandt, Pounds, and Fink 1995</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/IC 3599.json' download></a>",
 		"responsive":null
 	},
@@ -777,8 +861,8 @@
 		"aliases":[
 			"IGR J12580"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -789,12 +873,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"INTEGRAL, XMM-Newton, Swift, MAXI, Einstein",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.00411",
@@ -821,6 +900,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2013A%26A...552A..75N'>Niko&#322;ajuk and Walter 2013</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/IGR J12580.json' download></a>",
 		"responsive":null
 	},
@@ -830,8 +915,8 @@
 		"aliases":[
 			"IGR J17361-4441"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -842,12 +927,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Swift, INTEGRAL",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":null,
 		"hvel":null,
 		"lumdist":null,
@@ -859,6 +939,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2014arXiv1407.5081D'>Del Santo et al. 2014</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/IGR J17361-4441.json' download></a>",
 		"responsive":null
 	},
@@ -868,8 +954,8 @@
 		"aliases":[
 			"LEDA 095953"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -880,12 +966,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"ROSAT, XMM-Newton, Chandra, GROND (g', r', i', z', J, H, Ks)",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.0366",
@@ -912,6 +993,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2009A%26A...495L...9C'>Cappelluti et al. 2009</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/LEDA 095953.json' download></a>",
 		"responsive":null
 	},
@@ -921,8 +1008,8 @@
 		"aliases":[
 			"NGC 1097"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -933,12 +1020,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"CTIO, Shane",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.0042",
@@ -965,6 +1047,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/1995ApJ...443..617S'>Storchi-Bergmann et al. 1995</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/NGC 1097.json' download></a>",
 		"responsive":null
 	},
@@ -974,8 +1062,8 @@
 		"aliases":[
 			"NGC 2110"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -986,12 +1074,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Keck (LRIS), HST (STIS)",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.007579",
@@ -1018,6 +1101,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2007ApJ...668L..31M'>Moran et al. 2007</a>*",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/NGC 2110.json' download></a>",
 		"responsive":null
 	},
@@ -1027,8 +1116,8 @@
 		"aliases":[
 			"NGC 247"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -1039,12 +1128,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"XMM-Newton, Swift, Chandra",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.000531",
@@ -1071,6 +1155,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://goo.gl/pde8py'>Feng et al. 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/NGC 247.json' download></a>",
 		"responsive":null
 	},
@@ -1080,8 +1170,8 @@
 		"aliases":[
 			"NGC 3599"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -1092,12 +1182,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"XMM-Newton, Swift (XRT), ALFOSC, ROSAT",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.002699",
@@ -1124,6 +1209,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2007A%26A...462L..49E'>Esquej et al. 2007</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/NGC 3599.json' download></a>",
 		"responsive":null
 	},
@@ -1133,8 +1224,8 @@
 		"aliases":[
 			"NGC 5905"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -1145,12 +1236,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"ROSAT",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.01124",
@@ -1177,6 +1263,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/1996A%26A...309L..35B'>Bade, Komossa, and Dahlem 1996</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/NGC 5905.json' download></a>",
 		"responsive":null
 	},
@@ -1186,8 +1278,8 @@
 		"aliases":[
 			"NGC 6021"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -1198,12 +1290,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Swift (BAT)",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.015607",
@@ -1230,6 +1317,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/NGC 6021.json' download></a>",
 		"responsive":null
 	},
@@ -1239,8 +1332,18 @@
 		"aliases":[
 			"OGLE16aaa"
 		],
-		"discoverdate":"2016/01/10",
-		"maxdate":"2016/01/20",
+		"discoverdate":[
+			{
+				"value":"2015/12/17",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2016/01/20",
+				"source":"D"
+			}
+		],
 		"maxappmag":[
 			{
 				"value":"19.32",
@@ -1273,6 +1376,7 @@
 		],
 		"photolink":"<a class='lci' href='tde/OGLE16aaa.html' target='_blank'></a> 15",
 		"spectralink":null,
+		"citations":null,
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/OGLE16aaa.json' download></a>",
 		"responsive":null
 	},
@@ -1282,8 +1386,8 @@
 		"aliases":[
 			"PGC 015259"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -1294,12 +1398,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Swift (BAT)",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.014665",
@@ -1326,6 +1425,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/PGC 015259.json' download></a>",
 		"responsive":null
 	},
@@ -1335,8 +1440,8 @@
 		"aliases":[
 			"PGC 1127938"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -1347,12 +1452,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Swift (BAT)",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":null,
 		"hvel":null,
 		"lumdist":null,
@@ -1364,6 +1464,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/PGC 1127938.json' download></a>",
 		"responsive":null
 	},
@@ -1373,8 +1479,8 @@
 		"aliases":[
 			"PGC 1185375"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -1385,12 +1491,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Swift (BAT)",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.00523",
@@ -1417,6 +1518,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/PGC 1185375.json' download></a>",
 		"responsive":null
 	},
@@ -1426,8 +1533,8 @@
 		"aliases":[
 			"PGC 1190358"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -1438,12 +1545,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Swift (BAT)",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.00766",
@@ -1470,6 +1572,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/PGC 1190358.json' download></a>",
 		"responsive":null
 	},
@@ -1479,8 +1587,8 @@
 		"aliases":[
 			"PGC 133344"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -1491,12 +1599,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Swift (BAT)",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.02365",
@@ -1523,6 +1626,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/PGC 133344.json' download></a>",
 		"responsive":null
 	},
@@ -1532,8 +1641,8 @@
 		"aliases":[
 			"PGC 170392"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -1544,12 +1653,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Swift (BAT)",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.016246",
@@ -1576,6 +1680,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/PGC 170392.json' download></a>",
 		"responsive":null
 	},
@@ -1585,8 +1695,8 @@
 		"aliases":[
 			"Pictor A"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -1597,12 +1707,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"1.5m ESO Telescope",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.034",
@@ -1629,6 +1734,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/1995ApJ...438L...1S'>Sulentic et al. 1995</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/Pictor A.json' download></a>",
 		"responsive":null
 	},
@@ -1638,8 +1749,18 @@
 		"aliases":[
 			"PS1-10jh"
 		],
-		"discoverdate":"2009/05/13",
-		"maxdate":"2009/07/03",
+		"discoverdate":[
+			{
+				"value":"2009/05/23",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2009/07/03",
+				"source":"D"
+			}
+		],
 		"maxappmag":[
 			{
 				"value":"19.18",
@@ -1655,7 +1776,7 @@
 		"host":[
 			{
 				"value":"<a href='http://goo.gl/wLmfc2'>SDSS J160928.27+534023.9</a>",
-				"source":"1"
+				"source":"1,2"
 			}
 		],
 		"snra":null,
@@ -1664,7 +1785,7 @@
 		"redshift":[
 			{
 				"value":"0.1696",
-				"source":"1"
+				"source":"1,2"
 			}
 		],
 		"hvel":[
@@ -1682,11 +1803,17 @@
 		"claimedtype":[
 			{
 				"value":"He + SMBH, MS + SMBH",
-				"source":"1"
+				"source":"1,2"
 			}
 		],
 		"photolink":"<a class='lci' href='tde/PS1-10jh.html' target='_blank'></a> 113",
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2012Natur.485..217G'>Gezari et al. 2012</a>*&Dagger;, <a href='http://adsabs.harvard.edu/abs/2013arXiv1304.6397G'>Guillochon et al. 2013</a>&Dagger;",
+				"source":"2"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/PS1-10jh.json' download></a>",
 		"responsive":null
 	},
@@ -1696,8 +1823,18 @@
 		"aliases":[
 			"PS1-11af"
 		],
-		"discoverdate":"2009/11/28",
-		"maxdate":"2011/01/29",
+		"discoverdate":[
+			{
+				"value":"2010/12/30",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2011/01/29",
+				"source":"D"
+			}
+		],
 		"maxappmag":[
 			{
 				"value":"21.35",
@@ -1745,6 +1882,12 @@
 		],
 		"photolink":"<a class='lci' href='tde/PS1-11af.html' target='_blank'></a> 74",
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2013arXiv1309.3009C'>Chornock et al. 2013</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/PS1-11af.json' download></a>",
 		"responsive":null
 	},
@@ -1754,8 +1897,18 @@
 		"aliases":[
 			"PTF-09axc"
 		],
-		"discoverdate":"2009/04/27",
-		"maxdate":"2009/07/23",
+		"discoverdate":[
+			{
+				"value":"2009/06/20",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2009/07/23",
+				"source":"D"
+			}
+		],
 		"maxappmag":[
 			{
 				"value":"19.18",
@@ -1803,6 +1956,12 @@
 		],
 		"photolink":"<a class='lci' href='tde/PTF-09axc.html' target='_blank'></a> 11",
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://arxiv.org/abs/1405.1415v1'>Arcavi et al. 2014</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/PTF-09axc.json' download></a>",
 		"responsive":null
 	},
@@ -1812,8 +1971,18 @@
 		"aliases":[
 			"PTF-09djl"
 		],
-		"discoverdate":"2009/05/13",
-		"maxdate":"2009/08/07",
+		"discoverdate":[
+			{
+				"value":"2009/07/24",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2009/08/07",
+				"source":"D"
+			}
+		],
 		"maxappmag":[
 			{
 				"value":"19.6",
@@ -1861,6 +2030,12 @@
 		],
 		"photolink":"<a class='lci' href='tde/PTF-09djl.html' target='_blank'></a> 11",
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://arxiv.org/abs/1405.1415v1'>Arcavi et al. 2014</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/PTF-09djl.json' download></a>",
 		"responsive":null
 	},
@@ -1870,8 +2045,18 @@
 		"aliases":[
 			"PTF-09ge"
 		],
-		"discoverdate":"2009/03/20",
-		"maxdate":"2009/06/01",
+		"discoverdate":[
+			{
+				"value":"2009/05/07",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2009/06/01",
+				"source":"D"
+			}
+		],
 		"maxappmag":[
 			{
 				"value":"17.61",
@@ -1886,7 +2071,7 @@
 		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/H6KJ40'>SDSS",
+				"value":"<a href='http://goo.gl/H6KJ40'>SDSS J145703.17+493640.9</a>",
 				"source":"1"
 			}
 		],
@@ -1919,6 +2104,12 @@
 		],
 		"photolink":"<a class='lci' href='tde/PTF-09ge.html' target='_blank'></a> 132",
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://arxiv.org/abs/1405.1415v1'>Arcavi et al. 2014</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/PTF-09ge.json' download></a>",
 		"responsive":null
 	},
@@ -1928,8 +2119,8 @@
 		"aliases":[
 			"PTF-10iam"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -1940,12 +2131,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"P48 (R, g), P60 (g, r, i)",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.109",
@@ -1972,6 +2158,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://arxiv.org/abs/1405.1415v1'>Arcavi et al. 2014</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/PTF-10iam.json' download></a>",
 		"responsive":null
 	},
@@ -1981,8 +2173,8 @@
 		"aliases":[
 			"PTF-10iya"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -1993,12 +2185,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"PTF (g, r, i), Swift (UVOT, XRT), WHT, Keck**",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.22405",
@@ -2025,6 +2212,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2012MNRAS.420.2684C'>Cenko et al. 2012</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/PTF-10iya.json' download></a>",
 		"responsive":null
 	},
@@ -2034,8 +2227,8 @@
 		"aliases":[
 			"PTF-10nuj"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2046,12 +2239,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"P48 (R, g), P60 (g, r, i)",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.132",
@@ -2078,6 +2266,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://arxiv.org/abs/1405.1415v1'>Arcavi et al. 2014</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/PTF-10nuj.json' download></a>",
 		"responsive":null
 	},
@@ -2087,8 +2281,8 @@
 		"aliases":[
 			"PTF-11glr"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2099,12 +2293,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"P48 (R, g), P60 (g, r, i)",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.207",
@@ -2131,6 +2320,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://arxiv.org/abs/1405.1415v1'>Arcavi et al. 2014</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/PTF-11glr.json' download></a>",
 		"responsive":null
 	},
@@ -2140,8 +2335,8 @@
 		"aliases":[
 			"RBS 1032"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2152,12 +2347,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"ROSAT, XMM-Newton",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.026",
@@ -2184,6 +2374,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1407.2928'>Maksym et al. 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/RBS 1032.json' download></a>",
 		"responsive":null
 	},
@@ -2193,8 +2389,8 @@
 		"aliases":[
 			"RX J1242-11A"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2205,12 +2401,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"ROSAT, XMM-Newton, Chandra, La Silla*",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.05",
@@ -2237,6 +2428,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/1999A%26A...349L..45K'>Komossa and Greiner 1999</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/RX J1242-11A.json' download></a>",
 		"responsive":null
 	},
@@ -2246,8 +2443,8 @@
 		"aliases":[
 			"RX J1420+53"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2258,12 +2455,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"ROSAT, Special Astrophysical Observatory (V&Dagger;), Sonneberg (white&Dagger;), WIYN (R&Dagger;, B&Dagger;), Calar Alto*",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.147",
@@ -2290,6 +2482,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2000A%26A...362L..25G'>Greiner et al. 2000</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/RX J1420+53.json' download></a>",
 		"responsive":null
 	},
@@ -2299,8 +2497,8 @@
 		"aliases":[
 			"RX J1624+75"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2311,12 +2509,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"ROSAT, NVSS&Dagger;, IRAS&Dagger;, McD*, MDM*",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.0636",
@@ -2343,6 +2536,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/1999A%26A...350L..31G'>Grupe, Thomas, and Leighly 1999</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/RX J1624+75.json' download></a>",
 		"responsive":null
 	},
@@ -2352,8 +2551,8 @@
 		"aliases":[
 			"SDSS J0159"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2364,12 +2563,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"SDSS, BOSS, ROSAT, XMM-Newton, Chandra, GROND",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.31167",
@@ -2396,6 +2590,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1503.04870'>Merloni et al. 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/SDSS J0159.json' download></a>",
 		"responsive":null
 	},
@@ -2405,8 +2605,8 @@
 		"aliases":[
 			"SDSS J0748"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2417,12 +2617,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"SDSS",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.0615",
@@ -2449,6 +2644,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2012ApJ...749..115W'>Wang et al. 2012</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/SDSS J0748.json' download></a>",
 		"responsive":null
 	},
@@ -2458,8 +2659,8 @@
 		"aliases":[
 			"SDSS J0938"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2470,12 +2671,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"SDSS",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.1006",
@@ -2502,6 +2698,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2012ApJ...749..115W'>Wang et al. 2012</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/SDSS J0938.json' download></a>",
 		"responsive":null
 	},
@@ -2511,8 +2713,8 @@
 		"aliases":[
 			"SDSS J0939"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2523,12 +2725,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"SDSS, XMM-Newton, ROSAT",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.18589",
@@ -2555,6 +2752,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2007A%26A...462L..49E'>Esquej et al. 2007</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/SDSS J0939.json' download></a>",
 		"responsive":null
 	},
@@ -2564,8 +2767,8 @@
 		"aliases":[
 			"SDSS J0952"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2576,12 +2779,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"2MASS, GALEX, GROND, Chandra, SDSS, OMR Xinglong",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.0789",
@@ -2608,6 +2806,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2008ApJ...678L..13K'>Komossa et al. 2008</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/SDSS J0952.json' download></a>",
 		"responsive":null
 	},
@@ -2617,8 +2821,8 @@
 		"aliases":[
 			"SDSS J1011"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2629,12 +2833,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"SDSS, CSS, LINEAR, TDSS",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.24608",
@@ -2661,6 +2860,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://arxiv.org/abs/1509.03640v1'>Runnoe et al. 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/SDSS J1011.json' download></a>",
 		"responsive":null
 	},
@@ -2670,8 +2875,8 @@
 		"aliases":[
 			"SDSS J1055"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2682,12 +2887,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"SDSS",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.0743",
@@ -2714,6 +2914,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2012ApJ...749..115W'>Wang et al. 2012</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/SDSS J1055.json' download></a>",
 		"responsive":null
 	},
@@ -2723,8 +2929,8 @@
 		"aliases":[
 			"SDSS J1201"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2735,12 +2941,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"ROSAT&Dagger;, XMM-Newton, Swift-XRT, Calar Alto, WHT*",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.146",
@@ -2767,6 +2968,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2012A%26A...541A.106S'>Saxton et al. 2012</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/SDSS J1201.json' download></a>",
 		"responsive":null
 	},
@@ -2776,8 +2983,8 @@
 		"aliases":[
 			"SDSS J1241"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2788,12 +2995,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"SDSS",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.0419",
@@ -2820,6 +3022,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2012ApJ...749..115W'>Wang et al. 2012</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/SDSS J1241.json' download></a>",
 		"responsive":null
 	},
@@ -2829,8 +3037,8 @@
 		"aliases":[
 			"SDSS J1311"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2841,12 +3049,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"XMM-Newton, Chandra, HET*",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":null,
 		"hvel":null,
 		"lumdist":null,
@@ -2858,6 +3061,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2010ApJ...722.1035M'>Maksym, Ulmer, and Eracleous 2010</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/SDSS J1311.json' download></a>",
 		"responsive":null
 	},
@@ -2867,8 +3076,8 @@
 		"aliases":[
 			"SDSS J1323"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2879,12 +3088,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"XMM-Newton, Swift XRT, ALFOSC, ROSAT",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.08754",
@@ -2911,6 +3115,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2007A%26A...462L..49E'>Esquej et al. 2007</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/SDSS J1323.json' download></a>",
 		"responsive":null
 	},
@@ -2920,8 +3130,8 @@
 		"aliases":[
 			"SDSS J1342"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2932,12 +3142,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"SDSS",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.0366",
@@ -2964,6 +3169,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2012ApJ...749..115W'>Wang et al. 2012</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/SDSS J1342.json' download></a>",
 		"responsive":null
 	},
@@ -2973,8 +3184,8 @@
 		"aliases":[
 			"SDSS J1350"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -2985,12 +3196,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"SDSS",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.0777",
@@ -3017,6 +3223,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2012ApJ...749..115W'>Wang et al. 2012</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/SDSS J1350.json' download></a>",
 		"responsive":null
 	},
@@ -3026,8 +3238,8 @@
 		"aliases":[
 			"Swift J1112-82"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -3038,12 +3250,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Swift (BAT, XRT), GMOS-S, FORS2-VLT",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.89",
@@ -3070,6 +3277,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150703582B'>Brown et al. 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/Swift J1112-82.json' download></a>",
 		"responsive":null
 	},
@@ -3079,8 +3292,8 @@
 		"aliases":[
 			"Swift J1644+57"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -3091,12 +3304,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Swift (BAT, UVOT&Dagger;, XRT), CARMA, SMA, HST, VLA, NVSS&Dagger;, FIRST&Dagger;, AMI Large Array, OVRO, WISE&Dagger;, MMT*, GMOS*, Keck*",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.3543",
@@ -3123,6 +3331,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2011Sci...333..203B'>Bloom et al. 2011</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/Swift J1644+57.json' download></a>",
 		"responsive":null
 	},
@@ -3132,8 +3346,8 @@
 		"aliases":[
 			"Swift J2058+05"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -3144,12 +3358,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Swift (BAT, XRT), La Silla (g',r',i',z',J&Dagger;,H&Dagger;,K&Dagger;), Keck",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"1.1853",
@@ -3176,6 +3385,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2012ApJ...753...77C'>Cenko et al. 2012</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/Swift J2058+05.json' download></a>",
 		"responsive":null
 	},
@@ -3185,8 +3400,18 @@
 		"aliases":[
 			"TDE1"
 		],
-		"discoverdate":"2005/11/19",
-		"maxdate":"2005/11/30",
+		"discoverdate":[
+			{
+				"value":"2005/11/19",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2005/11/30",
+				"source":"D"
+			}
+		],
 		"maxappmag":[
 			{
 				"value":"20.74",
@@ -3234,6 +3459,12 @@
 		],
 		"photolink":"<a class='lci' href='tde/TDE1.html' target='_blank'></a> 73",
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2011ApJ...741...73V'>Van Velzen et al. 2011</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/TDE1.json' download></a>",
 		"responsive":null
 	},
@@ -3243,8 +3474,8 @@
 		"aliases":[
 			"TDE2"
 		],
-		"discoverdate":"1858/11/17",
-		"maxdate":"1858/11/17",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":[
 			{
 				"value":"19.26",
@@ -3292,6 +3523,12 @@
 		],
 		"photolink":"<a class='lci' href='tde/TDE2.html' target='_blank'></a> 34",
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2011ApJ...741...73V'>Van Velzen et al. 2011</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/TDE2.json' download></a>",
 		"responsive":null
 	},
@@ -3301,8 +3538,8 @@
 		"aliases":[
 			"UGC 01791"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -3313,12 +3550,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Swift (BAT)",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.015881",
@@ -3345,6 +3577,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/UGC 01791.json' download></a>",
 		"responsive":null
 	},
@@ -3354,8 +3592,8 @@
 		"aliases":[
 			"UGC 03317"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -3366,12 +3604,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Swift (BAT)",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.004136",
@@ -3398,6 +3631,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/UGC 03317.json' download></a>",
 		"responsive":null
 	},
@@ -3407,8 +3646,8 @@
 		"aliases":[
 			"WINGS J1348"
 		],
-		"discoverdate":"",
-		"maxdate":"",
+		"discoverdate":null,
+		"maxdate":null,
 		"maxappmag":null,
 		"maxabsmag":null,
 		"host":[
@@ -3419,12 +3658,7 @@
 		],
 		"snra":null,
 		"sndec":null,
-		"instruments":[
-			{
-				"value":"Chandra, HST (WFPC2), SDSS, WINGS, GALEX, Spitzer",
-				"source":"1"
-			}
-		],
+		"instruments":null,
 		"redshift":[
 			{
 				"value":"0.062",
@@ -3451,6 +3685,12 @@
 		],
 		"photolink":null,
 		"spectralink":null,
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2013MNRAS.435.1904M'>Maksym et al. 2013</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/WINGS J1348.json' download></a>",
 		"responsive":null
 	}
