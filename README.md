@@ -1,9 +1,9 @@
-# Open Supernova Catalog #
+# Open Catalog of Possible Tidal Disruption Events #
 
-[![Build Status](https://img.shields.io/travis/astrotransients/sne.svg)](https://travis-ci.org/astrotransients/sne)
+[![Build Status](https://img.shields.io/travis/astrotransients/tde.svg)](https://travis-ci.org/astrotransients/tde)
 [![Python Version](https://img.shields.io/badge/python-3.3%2C%203.4%2C%203.5-blue.svg)](https://www.python.org)
 
-This repository is a collection of supernova data, including metadata, light curves, and spectra. The catalog is displayed in tabular form on [sne.space](https://sne.space). Individual event data can be downloaded by navigating to the individual-sne folder and downloading the .json file associated with a given event; however it might be easier to use the search function on the table displayed on [sne.space](https://sne.space) to find the event you're looking for.
+This repository is a collection of tidal disruption event data, including metadata, light curves, and spectra. The catalog is displayed in tabular form on [tde.space](https://tde.space). Individual event data can be downloaded by navigating to the output repositories and downloading the .json file associated with a given event; however it might be easier to use the search function on the table displayed on [tde.space](https://tde.space) to find the event you're looking for.
 
 ## Contributing Data ##
 
