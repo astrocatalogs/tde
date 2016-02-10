@@ -15,8 +15,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -69,8 +69,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -123,8 +123,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -197,8 +197,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":"Bessel (V), SDSS (u, g, r, i, z), UVOT (M2, W1, W2, U, B, V)",
 		"redshift":[
 			{
@@ -271,8 +271,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":"Bessel (V), UVOT (M2, W1, W2, U, B, V), XRT (hard, soft)",
 		"redshift":[
 			{
@@ -325,8 +325,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -399,8 +399,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":"GALEX (FUV, NUV), MegaCam (g, r, i)",
 		"redshift":[
 			{
@@ -463,8 +463,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":"GALEX (FUV, NUV)",
 		"redshift":[
 			{
@@ -527,8 +527,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":"GALEX (FUV, NUV), MegaCam (g, r, i)",
 		"redshift":[
 			{
@@ -581,8 +581,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -655,8 +655,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":"ROTSE (FUV), UVOT (M2, W1, W2, U, B, V), XRT (W2)",
 		"redshift":[
 			{
@@ -709,8 +709,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -763,8 +763,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -817,8 +817,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -871,8 +871,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -925,8 +925,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":null,
 		"hvel":null,
@@ -964,8 +964,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -1018,8 +1018,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -1072,8 +1072,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -1126,8 +1126,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -1180,8 +1180,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -1234,8 +1234,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -1288,8 +1288,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -1336,6 +1336,10 @@
 			{
 				"value":"2015/12/17",
 				"source":"D"
+			},
+			{
+				"value":"2016/12/17",
+				"source":"D"
 			}
 		],
 		"maxdate":[
@@ -1352,13 +1356,13 @@
 		],
 		"maxabsmag":null,
 		"host":null,
-		"snra":[
+		"ra":[
 			{
 				"value":"1:07:20.88",
 				"source":"1,2"
 			}
 		],
-		"sndec":[
+		"dec":[
 			{
 				"value":"-64:16:20.7",
 				"source":"1,2"
@@ -1374,7 +1378,7 @@
 				"source":"1,2"
 			}
 		],
-		"photolink":"<a class='lci' href='tde/OGLE16aaa.html' target='_blank'></a> 15",
+		"photolink":"<a class='lci' href='tde/OGLE16aaa.html' target='_blank'></a> 18",
 		"spectralink":null,
 		"citations":null,
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/OGLE16aaa.json' download></a>",
@@ -1396,8 +1400,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -1450,8 +1454,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":null,
 		"hvel":null,
@@ -1489,8 +1493,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -1543,8 +1547,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -1597,8 +1601,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -1651,8 +1655,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -1705,8 +1709,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -1779,8 +1783,8 @@
 				"source":"1,2"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":"Chandra (z), GALEX (NUV), Pan-STARRS1 (g, r, i, z), XMM (NUV)",
 		"redshift":[
 			{
@@ -1853,8 +1857,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":"GALEX (NUV), Pan-STARRS1 (g, r, i, z)",
 		"redshift":[
 			{
@@ -1927,8 +1931,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":"PTF 48-Inch (g, r), PTF 60-Inch (r)",
 		"redshift":[
 			{
@@ -2001,8 +2005,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":"PTF 48-Inch (r), PTF 60-Inch (g, i)",
 		"redshift":[
 			{
@@ -2075,8 +2079,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":"PTF 48-Inch (g, r), PTF 60-Inch (g, r, i)",
 		"redshift":[
 			{
@@ -2129,8 +2133,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -2183,8 +2187,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -2237,8 +2241,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -2291,8 +2295,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -2345,8 +2349,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -2399,8 +2403,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -2453,8 +2457,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -2507,8 +2511,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -2561,8 +2565,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -2615,8 +2619,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -2669,8 +2673,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -2723,8 +2727,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -2777,8 +2781,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -2831,8 +2835,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -2885,8 +2889,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -2939,8 +2943,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -2993,8 +2997,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -3047,8 +3051,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":null,
 		"hvel":null,
@@ -3086,8 +3090,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -3140,8 +3144,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -3194,8 +3198,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -3248,8 +3252,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -3302,8 +3306,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -3356,8 +3360,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -3430,8 +3434,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":"GALEX (FUV, NUV), SDSS (u, g, r, i)",
 		"redshift":[
 			{
@@ -3494,8 +3498,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":"GALEX (FUV, NUV), SDSS (u, g, r)",
 		"redshift":[
 			{
@@ -3548,8 +3552,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -3602,8 +3606,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{
@@ -3656,8 +3660,8 @@
 				"source":"1"
 			}
 		],
-		"snra":null,
-		"sndec":null,
+		"ra":null,
+		"dec":null,
 		"instruments":null,
 		"redshift":[
 			{

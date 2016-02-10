@@ -313,7 +313,7 @@ def add_quanta(name, quanta, value, sources, forcereplacebetter = False, error =
             if svalue in typereps[rep]:
                 svalue = rep
                 break
-    elif quanta == 'snra' or quanta == 'sndec' or quanta == 'galra' or quanta == 'galdec':
+    elif quanta == 'ra' or quanta == 'dec' or quanta == 'galra' or quanta == 'galdec':
         if unit == 'decdeg' or unit == 'radeg':
             deg = float('%g' % Decimal(svalue))
             sig = get_sig_digits(svalue)
@@ -434,6 +434,15 @@ def set_first_max_light(name):
             source = 'D'
         add_quanta(name, 'maxdate', events[name]['maxyear'][0]['value'] + '/' + events[name]['maxmonth'][0]['value'].zfill(2) +
             '/' + events[name]['maxday'][0]['value'].zfill(2), source)
+    elif 'maxyear' in events[name] and 'maxmonth' in events[name]:
+        if (events[name]['maxyear'][0]['source'] == events[name]['maxmonth'][0]['source']):
+            source = events[name]['maxyear'][0]['source']
+        else:
+            source = 'D'
+        add_quanta(name, 'maxdate', events[name]['maxyear'][0]['value'] + '/' + events[name]['maxmonth'][0]['value'].zfill(2), source)
+    elif 'maxyear' in events[name]:
+        source = events[name]['maxyear'][0]['source']
+        add_quanta(name, 'maxdate', events[name]['maxyear'][0]['value'], source)
 
     if 'discovermonth' not in events[name] or 'discoverday' not in events[name]:
         fldt = get_first_light(name)
@@ -450,6 +459,15 @@ def set_first_max_light(name):
             source = 'D'
         add_quanta(name, 'discoverdate', events[name]['discoveryear'][0]['value'] + '/' + events[name]['discovermonth'][0]['value'].zfill(2) +
             '/' + events[name]['discoverday'][0]['value'].zfill(2), source)
+    elif 'discoveryear' in events[name] and 'discovermonth' in events[name]:
+        if (events[name]['discoveryear'][0]['source'] == events[name]['discovermonth'][0]['source']):
+            source = events[name]['discoveryear'][0]['source']
+        else:
+            source = 'D'
+        add_quanta(name, 'discoverdate', events[name]['discoveryear'][0]['value'] + '/' + events[name]['discovermonth'][0]['value'].zfill(2), source)
+    elif 'discoveryear' in events[name]:
+        source = events[name]['discoveryear'][0]['source']
+        add_quanta(name, 'discoverdate', events[name]['discoveryear'][0]['value'], source)
 
 def jd_to_mjd(jd):
     return jd - Decimal(2400000.5)
@@ -841,8 +859,8 @@ if do_task('ogle'):
                         if is_number(name[4:6]):
                             add_quanta(name, 'discoveryear', '20' + name[4:6], sources)
 
-                add_quanta(name, 'snra', ra, sources)
-                add_quanta(name, 'sndec', dec, sources)
+                add_quanta(name, 'ra', ra, sources)
+                add_quanta(name, 'dec', dec, sources)
                 if claimedtype and claimedtype != '-':
                     add_quanta(name, 'claimedtype', claimedtype, sources)
                 elif 'SN' not in name and 'claimedtype' not in events[name]:
