@@ -365,6 +365,45 @@
 	},
 	{
 		"check":null,
+		"name":"ATLAS16bdg",
+		"aliases":[
+			"ATLAS16bdg"
+		],
+		"discoverdate":[
+			{
+				"value":"2016/06/05",
+				"source":"D"
+			}
+		],
+		"maxdate":null,
+		"maxappmag":null,
+		"maxabsmag":null,
+		"host":[
+			{
+				"value":"NGC 4708",
+				"source":"1"
+			}
+		],
+		"ra":null,
+		"dec":null,
+		"instruments":null,
+		"redshift":null,
+		"hvel":null,
+		"lumdist":null,
+		"claimedtype":[
+			{
+				"value":"TDE?",
+				"source":"1"
+			}
+		],
+		"photolink":null,
+		"spectralink":null,
+		"citations":null,
+		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/ATLAS16bdg.json' download></a>",
+		"responsive":null
+	},
+	{
+		"check":null,
 		"name":"D1-9",
 		"aliases":[
 			"D1-9"
@@ -1334,23 +1373,19 @@
 		],
 		"discoverdate":[
 			{
-				"value":"2015/12/17",
-				"source":"D"
-			},
-			{
-				"value":"2016/12/17",
+				"value":"2012/07/05",
 				"source":"D"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"2016/01/20",
+				"value":"2016/01/14",
 				"source":"D"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"19.32",
+				"value":"19.13",
 				"source":"D"
 			}
 		],
@@ -1378,7 +1413,7 @@
 				"source":"1,2"
 			}
 		],
-		"photolink":"<a class='lci' href='tde/OGLE16aaa.html' target='_blank'></a> 77",
+		"photolink":"<a class='lci' href='tde/OGLE16aaa.html' target='_blank'></a> 53",
 		"spectralink":null,
 		"citations":null,
 		"download":"<a class='dci' title='Download Data' href='https://tde.space/tde/OGLE16aaa.json' download></a>",
